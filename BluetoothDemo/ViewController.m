@@ -20,6 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [BluetoothAssistant setProtocol:self];
+    [BluetoothAssistant scanForPeripherals];
 }
 
 #pragma mark BluetoothProtocol
